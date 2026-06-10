@@ -1,0 +1,98 @@
+{
+	"yita_core": {
+		"tools": [
+			"agent",
+			"read",
+			"search",
+			"edit",
+			"execute",
+			"todo",
+			"vscode",
+			"web"
+		],
+		"description": "Base operativa de Yita para analizar, planificar, editar, ejecutar y dar seguimiento tecnico de extremo a extremo.",
+		"icon": "gear"
+	},
+	"yita_documentation": {
+		"tools": [
+			"documentation",
+			"read",
+			"edit",
+			"search",
+			"execute",
+			"todo",
+			"web",
+			"renderMermaidDiagram",
+			"mermaid-diagram-validator",
+			"mermaid-diagram-preview",
+			"get_syntax_docs"
+		],
+		"description": "Modo especializado para documentacion tecnica, arquitectura visual y validacion de diagramas.",
+		"icon": "file-text"
+	},
+	"yita_manuales": {
+		"tools": [
+			"documentation",
+			"read",
+			"edit",
+			"search",
+			"execute",
+			"todo",
+			"vscode",
+			"web",
+			"renderMermaidDiagram",
+			"mermaid-diagram-validator",
+			"mermaid-diagram-preview",
+			"get_syntax_docs"
+		],
+		"description": "Generacion y mantenimiento de MANUAL_USUARIO, MANUAL_TECNICO y MANUAL_ARQUITECTURA con alto detalle y diagramacion validada.",
+		"icon": "book"
+	},
+	"yita_auditoria": {
+		"tools": [
+			"documentation",
+			"read",
+			"search",
+			"todo",
+			"web"
+		],
+		"description": "Auditoria ligera de coherencia entre politica del agente, bitacora y manuales del proyecto.",
+		"icon": "microscope"
+	},
+	"yita_github": {
+		"tools": [
+			"github",
+			"get_me",
+			"list_issues",
+			"search_issues",
+			"issue_read",
+			"issue_write",
+			"list_pull_requests",
+			"pull_request_read",
+			"create_pull_request",
+			"update_pull_request"
+		],
+		"description": "Flujo de trabajo para issues y pull requests con trazabilidad, revision y control de cambios.",
+		"icon": "source-control"
+	},
+	"yita_ai_workflow": {
+		"tools": [
+			"agent",
+			"foundry",
+			"memory",
+			"documentation",
+			"todo"
+		],
+		"description": "Modo para diseno/evolucion de agentes y flujos de IA con enfoque de evaluacion y mejora continua.",
+		"icon": "robot"
+	},
+	"yita_workflow": {
+		"tools": [
+			"todo",
+			"agent",
+			"memory"
+		],
+		"description": "Gestion de plan de trabajo, decisiones y clarificacion minima cuando sea estrictamente necesaria.",
+		"icon": "checklist"
+	}
+}
